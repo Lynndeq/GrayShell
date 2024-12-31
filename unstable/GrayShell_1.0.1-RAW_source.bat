@@ -40,7 +40,7 @@ set root=C:\Windows
 set sys=C:\
 set usrfil=C:\Users
 powershell /c write-host -back darkgray -fore white -nonewline GrayShell
-powershell /c write-host -back cyan -fore cyan -nonewline Z
+powershell /c write-host -back red -fore red -nonewline Z
 powershell /c write-host -back red -fore white 1.0.1-RAW
 echo.
 goto cmd
@@ -128,7 +128,7 @@ goto suclearcmd
 color %color11%%color12%
 cls
 powershell /c write-host -back darkgray -fore white -nonewline GrayShell
-powershell /c write-host -back %currentback% -fore %currentback% -nonewline Z
+powershell /c write-host -back red -fore red -nonewline Z
 powershell /c write-host -back red -fore white 1.0.1-RAW
 echo.
 powershell /c write-host -fore darkred Enter the command:
